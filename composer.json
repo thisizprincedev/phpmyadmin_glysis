@@ -1,8 +1,14 @@
 {
   "require" : {
+    "php": "^8.1",
     "ext-mbstring": "*"
   },
   "scripts" : {
     "post-install-cmd" : "composer create-project phpmyadmin/phpmyadmin; cp config.inc.php phpmyadmin/"
-  }
+  },
+  "extra": {
+        "paas": {
+            "document-root": "phpmyadmin",
+        }
+    }
 }
