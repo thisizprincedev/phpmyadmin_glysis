@@ -8,7 +8,7 @@
   },
   "extra": {
     "paas": {
-       "document-root": "web"
+       "document-root": "phpmyadmin/phpmyadmin"
     }
   }
 }
